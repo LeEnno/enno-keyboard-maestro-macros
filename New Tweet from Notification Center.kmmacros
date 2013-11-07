@@ -16,7 +16,7 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<true/>
+						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
@@ -28,11 +28,13 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<true/>
+						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
 						<key>Text</key>
 						<string>ScreenDimensions[3]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>screenX</string>
 					</dict>
@@ -57,8 +59,6 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>Pause</string>
-						<key>Seconds</key>
-						<real>0.5</real>
 						<key>Time</key>
 						<string>0.5</string>
 						<key>TimeOutAbortsMacro</key>
@@ -71,16 +71,16 @@
 						<integer>0</integer>
 						<key>ClickCount</key>
 						<integer>1</integer>
+						<key>DisplayMatches</key>
+						<false/>
 						<key>DragHorizontalPosition</key>
 						<string>0</string>
 						<key>DragVerticalPosition</key>
 						<string>0</string>
 						<key>Fuzz</key>
 						<integer>0</integer>
-						<key>HorizontalPosition</key>
-						<integer>1115</integer>
 						<key>HorizontalPositionExpression</key>
-						<string>screenX - 165</string>
+						<string>screenX - 100</string>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
@@ -97,14 +97,14 @@
 						<string>TopLeft</string>
 						<key>RestoreMouseLocation</key>
 						<false/>
-						<key>VerticalPosition</key>
-						<integer>40</integer>
 						<key>VerticalPositionExpression</key>
 						<string>40</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>405512054.70089298</real>
 				<key>Name</key>
 				<string>New Tweet from Notification Center</string>
 				<key>Triggers</key>
@@ -118,8 +118,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>

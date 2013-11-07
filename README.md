@@ -32,7 +32,8 @@ Of course you can as always modify the keys to your needs.
 
 Use **^⌥T** in order to quickly set up a new tweet from the Notification Center. Major advantage: you get autocompletion for mentions and hashtags without using a third party client.
 
-**Notice:** It assumes you already set up the shortcut **^⌥⌘N** to activate Notification Center. Look [here](http://osxdaily.com/2012/08/05/open-notification-center-with-keyboard-shortcut-os-x/ "Open Notification Center with a Keyboard Shortcut in OS X Mountain Lion") for instructions on how to do that.
+**Notice:** It assumes you already set up the shortcut **^⌥⌘N** to activate Notification Center. Look [here](http://osxdaily.com/2012/08/05/open-notification-center-with-keyboard-shortcut-os-x/ "Open Notification Center with a Keyboard Shortcut in OS X Mountain Lion") for instructions on how to do that.  
+Furthermore you might need to adjust the "*Move and Click at*"-Action to your needs. Currently it assumes you only have buttons for Messages and Twitter in your Notification Center.
 
 ### Resize iPad-Images
 
