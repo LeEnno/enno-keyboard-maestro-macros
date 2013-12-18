@@ -12,6 +12,10 @@ Setup
 The Macros in Detail
 --------------------
 
+### Close all tabs except from active one
+
+Does exactly what you'd think it does in Google Chrome. Shortcut is **⇧⌥⌘W** by default. Feel free to change it to your needs.
+
 ### EnnoWindowManager
 
 There are a lot of tools out there for managing your windows on OS X. But as a geek who likes to fiddle around I wanted to build my own thing with KM. So here's a list of shortcuts and how they resize the currently active window:
