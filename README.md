@@ -32,6 +32,25 @@ There are a lot of tools out there for managing your windows on OS X. But as a g
 
 Of course you can as always modify the keys to your needs.
 
+### iTerm Text Editing
+
+*(works in standard Terminal.app, too)*
+
+Gives you a little Cocoa-like text editing by mapping standard terminal shortcuts for text processing. I had a hard time remembering the standard shortcuts, so I made macros to use the ones I already know. 
+
+- Delete whole line: **⌘Backspace**
+- Delete word left to cursor: **⌥Backspace**
+- Forward Delete: **Delete**
+- Place cursor at line's end: **⌘→**
+- Place cursor at line's start: **⌘←**
+- Place cursor at word's end: **⌥→**
+- Place cursor at word's start: **⌥←**
+
+Bonus, *iTerm only* and not directly related to text editing, but handy if you're used to navigate through tabs in Chrome:
+
+- Select Next Tab: **⌥⌘→**
+- Select Previous Tab: **⌥⌘←**
+
 ### New Tweet from Notification Center
 
 Use **^⌥T** in order to quickly set up a new tweet from the Notification Center. Major advantage: you get autocompletion for mentions and hashtags without using a third party client.
