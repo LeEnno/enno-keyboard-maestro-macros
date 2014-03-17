@@ -33,16 +33,20 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth /3</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -53,12 +57,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -67,8 +71,8 @@
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX + targetWidth</string>
 						<key>IsActive</key>
@@ -79,12 +83,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -93,6 +97,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>33% Center</string>
 				<key>Triggers</key>
@@ -106,8 +112,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -150,16 +154,20 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth / 3</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>0</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX</string>
 						<key>IsActive</key>
@@ -170,12 +178,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -184,8 +192,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -196,12 +204,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -210,6 +218,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>33% Left</string>
 				<key>Triggers</key>
@@ -223,8 +233,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -267,16 +275,20 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth /3</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -287,12 +299,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -317,16 +329,20 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth - WindowDimensions[1]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetPosition</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>1120</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX + targetPosition</string>
 						<key>IsActive</key>
@@ -337,12 +353,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -351,6 +367,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>33% Right</string>
 				<key>Triggers</key>
@@ -364,8 +382,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -408,16 +424,20 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth /2</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>0</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX</string>
 						<key>IsActive</key>
@@ -428,12 +448,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -442,8 +462,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -454,12 +474,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -468,6 +488,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>50% Left</string>
 				<key>Triggers</key>
@@ -481,8 +503,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -510,6 +530,20 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>D7104ADB-CC31-47CC-B70F-8C6677E798D9</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
 						<false/>
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
@@ -525,16 +559,20 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>screenWidth /2</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX + targetWidth</string>
 						<key>IsActive</key>
@@ -545,12 +583,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -559,8 +597,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -571,12 +609,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -585,6 +623,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>50% Right</string>
 				<key>Triggers</key>
@@ -598,8 +638,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -642,16 +680,20 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>2 * (screenWidth /3)</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>0</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX</string>
 						<key>IsActive</key>
@@ -662,12 +704,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -676,8 +718,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -688,12 +730,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -702,6 +744,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>66% Left</string>
 				<key>Triggers</key>
@@ -715,8 +759,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -759,16 +801,20 @@
 						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>2 * (screenWidth /3)</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>targetWidth</string>
 					</dict>
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>427</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX + screenWidth / 3</string>
 						<key>IsActive</key>
@@ -779,12 +825,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -793,8 +839,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>560</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>targetWidth</string>
 						<key>IsActive</key>
@@ -805,12 +851,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -819,6 +865,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>390812665.54098302</real>
 				<key>Name</key>
 				<string>66% Right</string>
 				<key>Triggers</key>
@@ -832,8 +880,6 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -872,8 +918,8 @@
 					<dict>
 						<key>Action</key>
 						<string>MoveWindowTo</string>
-						<key>Horizontal</key>
-						<integer>0</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenX</string>
 						<key>IsActive</key>
@@ -884,12 +930,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>0</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenY</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -898,8 +944,8 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>1280</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
 						<string>screenWidth</string>
 						<key>IsActive</key>
@@ -910,12 +956,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>800</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
 						<string>screenHeight</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -924,6 +970,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>391857995.068317</real>
 				<key>Name</key>
 				<string>100%</string>
 				<key>Triggers</key>
@@ -937,12 +985,89 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>9C68CA8F-BC21-4111-89D9-8FF92E54F715</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Window Manager</string>
+		<key>UID</key>
+		<string>A38A7519-7AAD-4498-8CD8-AEF65A02CF63</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B498F7B7-1FCF-460D-9480-394C9BAFEA21</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>MoveWindowTo</string>
+						<key>HeightExpression</key>
+						<string>300</string>
+						<key>HorizontalExpression</key>
+						<string>FrontWindowX</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ManipulateWindow</string>
+						<key>Targeting</key>
+						<string>FrontWindow</string>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>VerticalExpression</key>
+						<string>FrontWindowHeight * 0.5 + 22</string>
+						<key>WidthExpression</key>
+						<string>300</string>
+						<key>WindowIndexExpression</key>
+						<string>2</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>416750434.84530002</real>
+				<key>Name</key>
+				<string>Bottom Half</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>44</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CD06F465-47E0-474B-A275-1A6930A97ABF</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -970,7 +1095,7 @@
 						<key>Text</key>
 						<string>%FrontWindowFrame%</string>
 						<key>Variable</key>
-						<string>FrontWindowFrame</string>
+						<string>FrontWindowDimensions</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -991,8 +1116,12 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>SecondScreenDimensions[3]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>SecondScreenWidth</string>
 					</dict>
@@ -1017,13 +1146,17 @@
 								<key>IsActive</key>
 								<true/>
 								<key>IsDisclosed</key>
-								<false/>
+								<true/>
 								<key>MacroActionType</key>
 								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
 								<key>Text</key>
-								<string>SecondScreenDimensions[1]</string>
+								<string>FrontWindowDimensions[1]</string>
+								<key>UseFormat</key>
+								<false/>
 								<key>Variable</key>
-								<string>SecondScreenX</string>
+								<string>FrontWindowX</string>
 							</dict>
 							<dict>
 								<key>IsActive</key>
@@ -1032,10 +1165,154 @@
 								<false/>
 								<key>MacroActionType</key>
 								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
 								<key>Text</key>
-								<string>FrontWindowFrame[1]</string>
+								<string>FrontWindowDimensions[3]</string>
+								<key>UseFormat</key>
+								<false/>
 								<key>Variable</key>
-								<string>FrontWindowX</string>
+								<string>FrontWindowWidth</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FrontWindowDimensions[4]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>FrontWindowHeight</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Screen%1%</string>
+								<key>Variable</key>
+								<string>FirstScreenDimensions</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenDimensions[1]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>FirstScreenX</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenDimensions[2]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>FirstScreenY</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenDimensions[3]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>FirstScreenWidth</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenDimensions[4]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>FirstScreenHeight</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>SecondScreenDimensions[1]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>SecondScreenX</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>SecondScreenDimensions[2]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>SecondScreenY</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>SecondScreenDimensions[4]</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>SecondScreenHeight</string>
 							</dict>
 							<dict>
 								<key>Conditions</key>
@@ -1058,7 +1335,7 @@
 										<key>IsActive</key>
 										<true/>
 										<key>IsDisclosed</key>
-										<true/>
+										<false/>
 										<key>MacroActionType</key>
 										<string>SetVariableToText</string>
 										<key>Text</key>
@@ -1079,7 +1356,7 @@
 										<key>IsActive</key>
 										<true/>
 										<key>IsDisclosed</key>
-										<true/>
+										<false/>
 										<key>MacroActionType</key>
 										<string>SetVariableToText</string>
 										<key>Text</key>
@@ -1095,7 +1372,7 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<false/>
+						<true/>
 						<key>MacroActionType</key>
 						<string>IfThenElse</string>
 						<key>ThenActions</key>
@@ -1104,7 +1381,7 @@
 								<key>IsActive</key>
 								<true/>
 								<key>IsDisclosed</key>
-								<true/>
+								<false/>
 								<key>MacroActionType</key>
 								<string>SetVariableToText</string>
 								<key>Text</key>
@@ -1123,8 +1400,12 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>ScreenDimensions[1]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>screenX</string>
 					</dict>
@@ -1135,10 +1416,68 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>ScreenDimensions[2]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>screenY</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.apple.iTunes</string>
+										<key>Name</key>
+										<string>iTunes.app</string>
+										<key>NewFile</key>
+										<string>/Applications/iTunes.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>screenY + 22</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>screenY</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -1147,8 +1486,12 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>ScreenDimensions[3]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>screenWidth</string>
 					</dict>
@@ -1159,14 +1502,52 @@
 						<false/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
 						<key>Text</key>
 						<string>ScreenDimensions[4]</string>
+						<key>UseFormat</key>
+						<false/>
 						<key>Variable</key>
 						<string>screenHeight</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>FrontWindowDimensions[3]</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>FrontWindowWidth</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>FrontWindowDimensions[4]</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>FrontWindowHeight</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>401467744.50018501</real>
 				<key>Name</key>
 				<string>Get Screen Dimensions</string>
 				<key>Triggers</key>
@@ -1207,10 +1588,10 @@
 					<dict>
 						<key>Action</key>
 						<string>ResizeWindowTo</string>
-						<key>Horizontal</key>
-						<integer>954</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
 						<key>HorizontalExpression</key>
-						<string>FrontWindowFrame[3]</string>
+						<string>FrontWindowWidth</string>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
@@ -1219,12 +1600,12 @@
 						<string>ManipulateWindow</string>
 						<key>Targeting</key>
 						<string>FrontWindow</string>
-						<key>Vertical</key>
-						<integer>383</integer>
+						<key>TargetingType</key>
+						<string>Front</string>
 						<key>VerticalExpression</key>
-						<string>FrontWindowFrame[4] * 0.5</string>
-						<key>WindowIndex</key>
-						<integer>2</integer>
+						<string>FrontWindowHeight * 0.5</string>
+						<key>WidthExpression</key>
+						<string>300</string>
 						<key>WindowIndexExpression</key>
 						<string>2</string>
 						<key>WindowName</key>
@@ -1233,6 +1614,8 @@
 				</array>
 				<key>IsActive</key>
 				<true/>
+				<key>ModificationDate</key>
+				<real>401467772.42160702</real>
 				<key>Name</key>
 				<string>Half-Height</string>
 				<key>Triggers</key>
@@ -1246,12 +1629,421 @@
 						<string>HotKey</string>
 						<key>Modifiers</key>
 						<integer>6400</integer>
-						<key>TriggerRepeat</key>
-						<false/>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>B498F7B7-1FCF-460D-9480-394C9BAFEA21</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Window Manager</string>
+		<key>UID</key>
+		<string>A38A7519-7AAD-4498-8CD8-AEF65A02CF63</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>EEAACDE1-2FC1-4719-B77D-8593B35D0271</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>FrontWindowWidth</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>targetWidth</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>FrontWindowHeight</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>targetHeight</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>FrontWindowX &lt; SecondScreenX</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Calculation</string>
+											<key>Text</key>
+											<string>targetWidth &gt; FirstScreenWidth</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>IsActive</key>
+										<true/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>FirstScreenWidth</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>targetWidth</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Calculation</string>
+											<key>Text</key>
+											<string>targetHeight &gt; FirstScreenHeight</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>IsActive</key>
+										<true/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>FirstScreenHeight</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>targetHeight</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenX</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>targetX</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>FirstScreenY</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>targetY</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Calculation</string>
+											<key>Text</key>
+											<string>targetWidth &gt; SecondScreenWidth</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>IsActive</key>
+										<true/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>SecondScreenWidth</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>targetWidth</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Calculation</string>
+											<key>Text</key>
+											<string>targetHeight &gt; SecondScreenHeight</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>IsActive</key>
+										<true/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>SecondScreenHeight</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>targetHeight</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>SecondScreenX</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>targetX</string>
+							</dict>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>SecondScreenY</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>targetY</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ResizeWindowTo</string>
+						<key>HeightExpression</key>
+						<string>300</string>
+						<key>HorizontalExpression</key>
+						<string>targetWidth</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ManipulateWindow</string>
+						<key>Targeting</key>
+						<string>FrontWindow</string>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>VerticalExpression</key>
+						<string>targetHeight</string>
+						<key>WidthExpression</key>
+						<string>300</string>
+						<key>WindowIndexExpression</key>
+						<string>2</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>MoveWindowTo</string>
+						<key>HeightExpression</key>
+						<string>300</string>
+						<key>HorizontalExpression</key>
+						<string>targetX</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ManipulateWindow</string>
+						<key>Targeting</key>
+						<string>FrontWindow</string>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>VerticalExpression</key>
+						<string>targetY</string>
+						<key>WidthExpression</key>
+						<string>300</string>
+						<key>WindowIndexExpression</key>
+						<string>2</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>401467306.69801301</real>
+				<key>Name</key>
+				<string>Switch to other Monitor</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>50</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>442B5DD7-32FA-4F22-9ED5-DB5F35A753E5</string>
 			</dict>
 		</array>
 		<key>Name</key>
