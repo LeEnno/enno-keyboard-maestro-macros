@@ -55,7 +55,7 @@ Bonus, *iTerm only* and not directly related to text editing, but handy if you'r
 
 ### New Tweet from Notification Center
 
-Use <kbd>^</kbd> <kbd>⌥</kbd> <kbd>T</kbd> in order to quickly set up a new tweet from the Notification Center. Major advantage: you get autocompletion for mentions and hashtags without using a third party client.
+Use <kbd>^</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>T</kbd> in order to quickly set up a new tweet from the Notification Center. Major advantage: you get autocompletion for mentions and hashtags without using a third party client.
 
 **Notice:** It assumes you already set up the shortcut <kbd>^</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>N</kbd> to activate Notification Center. Look [here](http://osxdaily.com/2012/08/05/open-notification-center-with-keyboard-shortcut-os-x/ "Open Notification Center with a Keyboard Shortcut in OS X Mountain Lion") for instructions on how to do that.  
 Furthermore you might need to adjust the "*Move and Click at*"-Action to your needs. Currently it assumes you only have buttons for Messages and Twitter in your Notification Center.
