@@ -1126,6 +1126,22 @@
 						<string>SecondScreenWidth</string>
 					</dict>
 					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>FrontWindowDimensions[1]</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>FrontWindowX</string>
+					</dict>
+					<dict>
 						<key>Conditions</key>
 						<dict>
 							<key>ConditionList</key>
@@ -1142,22 +1158,6 @@
 						</dict>
 						<key>ElseActions</key>
 						<array>
-							<dict>
-								<key>IsActive</key>
-								<true/>
-								<key>IsDisclosed</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>SetVariableToCalculation</string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>FrontWindowDimensions[1]</string>
-								<key>UseFormat</key>
-								<false/>
-								<key>Variable</key>
-								<string>FrontWindowX</string>
-							</dict>
 							<dict>
 								<key>IsActive</key>
 								<true/>
@@ -1397,7 +1397,7 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<false/>
+						<true/>
 						<key>MacroActionType</key>
 						<string>SetVariableToCalculation</string>
 						<key>StopOnFailure</key>
@@ -1547,7 +1547,7 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>401467744.50018501</real>
+				<real>416935012.403974</real>
 				<key>Name</key>
 				<string>Get Screen Dimensions</string>
 				<key>Triggers</key>
